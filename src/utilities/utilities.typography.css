@@ -1,0 +1,65 @@
+/**
+ * Utilities > Typography
+ *
+ * @define utilities
+ *
+ */
+
+/* Generic utils */
+
+.u-uppercase          { text-transform: uppercase; }
+.u-lowercase          { text-transform: lowercase; }
+
+.u-fontLight          { font-weight: var(--fontWeightLight); }
+.u-fontMedium         { font-weight: var(--fontWeightMedium); }
+.u-fontHeavy          { font-weight: var(--fontWeightHeavy); }
+
+.u-lineHeightSmall    { line-height: 1.2; }
+
+/* Responsive utils */
+
+.u-fontSmaller        { font-size: var(--fontSizeSmaller); }
+.u-fontSmall          { font-size: var(--fontSizeSmall); }
+.u-fontBase           { font-size: var(--fontSizeBase); }
+.u-fontLarge          { font-size: var(--fontSizeLarge); }
+.u-fontLarger         { font-size: var(--fontSizeLarger); }
+.u-fontLargest        { font-size: var(--fontSizeLargest); }
+
+.u-textCenter         { text-align: center; }
+.u-textJustify        { text-align: justify; }
+.u-textLeft           { text-align: left; }
+.u-textRight          { text-align: right; }
+
+/* Medium breakpoint
+  =========================================================================== */
+
+@media (--md) {
+  .u-fontSmaller\@md  { font-size: var(--fontSizeSmaller); }
+  .u-fontSmall\@md    { font-size: var(--fontSizeSmall); }
+  .u-fontBase\@md     { font-size: var(--fontSizeBase); }
+  .u-fontLarge\@md    { font-size: var(--fontSizeLarge); }
+  .u-fontLarger\@md   { font-size: var(--fontSizeLarger); }
+  .u-fontLargest\@md  { font-size: var(--fontSizeLargest); }
+
+  .u-textCenter\@md   { text-align: center; }
+  .u-textJustify\@md  { text-align: justify; }
+  .u-textLeft\@md     { text-align: left; }
+  .u-textRight\@md    { text-align: right; }
+}
+
+/* Large breakpoint
+  =========================================================================== */
+
+@media (--lg) {
+  .u-fontSmaller\@lg  { font-size: var(--fontSizeSmaller); }
+  .u-fontSmall\@lg    { font-size: var(--fontSizeSmall); }
+  .u-fontBase\@lg     { font-size: var(--fontSizeBase); }
+  .u-fontLarge\@lg    { font-size: var(--fontSizeLarge); }
+  .u-fontLarger\@lg   { font-size: var(--fontSizeLarger); }
+  .u-fontLargest\@lg  { font-size: var(--fontSizeLargest); }
+
+  .u-textCenter\@lg   { text-align: center; }
+  .u-textJustify\@lg  { text-align: justify; }
+  .u-textLeft\@lg     { text-align: left; }
+  .u-textRight\@lg    { text-align: right; }
+}

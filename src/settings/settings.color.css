@@ -1,0 +1,21 @@
+/**
+ * Settings > Color
+ */
+
+:root {
+
+  /* Brand colors */
+  --colorBrandGreen: #63e7ca;
+
+  /* Neutrals */
+  --colorGray: #333;
+  --colorGrayDark: #1a1a1a;
+  --colorGrayLight: #666;
+  --colorGrayLighter: #999;
+  --colorGrayLightest: #e5e5e5;
+
+  /* Base colors */
+  --baseColorAccent: var(--colorBrandGreen);
+  --baseColorText: var(--colorGray);
+  --baseColorWhite: #f5f5f5;
+}

@@ -1,0 +1,28 @@
+/**
+ * Utilities > Flex
+ *
+ * @define utilities
+ *
+ */
+
+.u-flexColumn           { flex-direction: column; }
+.u-alignCenter          { align-items: center; }
+.u-justifyCenter        { justify-content: center; }
+
+/* Medium breakpoint
+  =========================================================================== */
+
+@media (--md) {
+  .u-flexColumn\@md     { flex-direction: column; }
+  .u-alignCenter\@md    { align-items: center; }
+  .u-justifyCenter\@md  { justify-content: center; }
+}
+
+/* Large breakpoint
+  =========================================================================== */
+
+@media (--lg) {
+  .u-flexColumn\@lg     { flex-direction: column; }
+  .u-alignCenter\@lg    { align-items: center; }
+  .u-justifyCenter\@lg  { justify-content: center; }
+}

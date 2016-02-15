@@ -1,0 +1,37 @@
+/**
+ * Utilities > Display
+ *
+ * @define utilities
+ *
+ */
+
+.u-block        { display: block; }
+.u-flex         { display: flex; }
+.u-inline       { display: inline; }
+.u-inlineBlock  { display: inline-block; }
+.u-inlineFlex   { display: inline-flex; }
+.u-none         { display: none; }
+
+/* Medium breakpoint
+  =========================================================================== */
+
+@media (--md) {
+  .u-block\@md        { display: block; }
+  .u-flex\@md         { display: flex; }
+  .u-inline\@md       { display: inline; }
+  .u-inlineBlock\@md  { display: inline-block; }
+  .u-inlineFlex\@md   { display: inline-flex; }
+  .u-none\@md         { display: none; }
+}
+
+/* Large breakpoint
+  =========================================================================== */
+
+@media (--lg) {
+  .u-block\@lg        { display: block; }
+  .u-flex\@lg         { display: flex; }
+  .u-inline\@lg       { display: inline; }
+  .u-inlineBlock\@lg  { display: inline-block; }
+  .u-inlineFlex\@lg   { display: inline-flex; }
+  .u-none\@lg         { display: none; }
+}

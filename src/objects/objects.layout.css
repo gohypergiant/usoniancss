@@ -1,0 +1,69 @@
+/**
+ * Objects > Layout
+ * - TODO: Define custom linting pattern for objects
+ *
+ * @define o-Layout
+ *
+ */
+
+.o-Layout {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-left: -1rem;
+  padding: 0;
+}
+
+.o-Layout-item {
+  padding-left: 1rem;
+  width: 100%;
+}
+
+/* Layout with nowrap */
+
+.o-Layout--pack {
+  flex-wrap: nowrap;
+  margin-left: 0;
+}
+
+.o-Layout--pack > .o-Layout-item {
+  flex-grow: 1;
+  padding-left: 0;
+  width: auto;
+}
+
+/* Layout with no gutters */
+
+.o-Layout--flush {
+  margin-left: 0;
+}
+
+.o-Layout--flush > .o-Layout-item {
+  padding-left: 0;
+}
+
+/* Layout with tight gutters */
+
+.o-Layout--tight {
+  margin-left: -0.25rem;
+}
+
+.o-Layout--tight > .o-Layout-item {
+  padding-left: 0.25rem;
+}
+
+/* Layout with loose gutters */
+
+.o-Layout--loose {
+  margin-left: -2rem;
+}
+
+.o-Layout--loose > .o-Layout-item {
+  padding-left: 2rem;
+}
+
+/* Reverse layout */
+
+.o-Layout--reverse {
+  flex-direction: row-reverse;
+}

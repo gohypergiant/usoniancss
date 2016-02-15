@@ -1,0 +1,28 @@
+/**
+ * Utilities > Float
+ *
+ * @define utilities
+ *
+ */
+
+.u-floatRight       { float: right; }
+.u-floatLeft        { float: left; }
+.u-floatNone        { float: none; }
+
+/* Medium breakpoint
+  =========================================================================== */
+
+@media (--md) {
+  .u-floatRight\@md { float: right; }
+  .u-floatLeft\@md  { float: left; }
+  .u-floatNone\@md  { float: none; }
+}
+
+/* Large breakpoint
+  =========================================================================== */
+
+@media (--lg) {
+  .u-floatRight\@lg { float: right; }
+  .u-floatLeft\@lg  { float: left; }
+  .u-floatNone\@lg  { float: none; }
+}

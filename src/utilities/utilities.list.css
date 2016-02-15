@@ -1,0 +1,10 @@
+/**
+ * Utilities > List
+ *
+ * @define utilities
+ *
+ */
+
+.u-resetList {
+  list-style: none;
+}

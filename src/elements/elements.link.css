@@ -1,0 +1,8 @@
+/**
+ * Elements > Link
+ */
+
+a {
+  color: var(--baseColorAccent);
+  text-decoration: none;
+}

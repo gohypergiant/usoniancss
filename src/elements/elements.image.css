@@ -1,0 +1,13 @@
+/**
+ * Elements > Image
+ */
+
+img {
+  font-style: italic;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+svg {
+  max-height: 100%;
+}
