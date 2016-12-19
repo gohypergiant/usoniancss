@@ -2214,9 +2214,11 @@ usoniancss-components@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/usoniancss-components/-/usoniancss-components-1.0.0.tgz#2cec49a96f0b8066ac506bcf587c5c552fe63a04"
 
-usoniancss-elements@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/usoniancss-elements/-/usoniancss-elements-1.0.0.tgz#a2417e6b128433e7943fa45ca65c40c63423d54a"
+usoniancss-elements@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/usoniancss-elements/-/usoniancss-elements-1.1.0.tgz#1f1c43a2394d4cbef73705d8958dfa8dca0bb426"
+  dependencies:
+    usoniancss-mq "^1.0.0"
 
 usoniancss-generic@^1.0.0:
   version "1.0.0"
@@ -2226,9 +2228,11 @@ usoniancss-mq@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/usoniancss-mq/-/usoniancss-mq-1.0.0.tgz#5b5d89d1f7afe242644fb0fb01507b3bd6c15736"
 
-usoniancss-objects@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/usoniancss-objects/-/usoniancss-objects-1.0.0.tgz#da7d82ec8f3e55964c03ce81b3d486daf6a218d8"
+usoniancss-objects@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/usoniancss-objects/-/usoniancss-objects-1.1.0.tgz#7f9789c866c917515a5f467adcc95c87b85a891b"
+  dependencies:
+    usoniancss-mq "^1.0.0"
 
 usoniancss-utilities@^1.2.0:
   version "1.2.0"

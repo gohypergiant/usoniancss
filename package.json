@@ -48,10 +48,10 @@
   },
   "dependencies": {
     "usoniancss-components": "^1.0.0",
-    "usoniancss-elements": "^1.0.0",
+    "usoniancss-elements": "^1.1.0",
     "usoniancss-generic": "^1.0.0",
     "usoniancss-mq": "^1.0.0",
-    "usoniancss-objects": "^1.0.0",
+    "usoniancss-objects": "^1.1.0",
     "usoniancss-utilities": "^1.2.0"
   }
 }
