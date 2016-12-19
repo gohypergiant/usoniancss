@@ -1,0 +1,77 @@
+@import "usoniancss-mq";
+
+/**
+ * Usoniancss > Utilities > Typography
+ * @define utilities
+ */
+
+:root {
+  --Typography-fontWeightLight:
+  --Typography-fontWeightMedium:
+  --Typography-fontWeightHeavy:
+  --Typography-fontSizeLargest: 3.815rem;
+  --Typography-fontSizeLarger: 1.563rem;
+  --Typography-fontSizeLarge: 1.25rem;
+  --Typography-fontSizeBase: 1rem;
+  --Typography-fontSizeSmall: 0.8rem;
+  --Typography-fontSizeSmaller:: 0.64rem;
+}
+
+/* Generic utils */
+
+.u-uppercase          { text-transform: uppercase; }
+.u-lowercase          { text-transform: lowercase; }
+
+.u-fontLight          { font-weight: var(--fontWeightLight); }
+.u-fontMedium         { font-weight: var(--fontWeightMedium); }
+.u-fontHeavy          { font-weight: var(--fontWeightHeavy); }
+
+.u-lineHeightSmall    { line-height: 1.2; }
+
+/* Responsive utils */
+
+.u-fontSmaller        { font-size: var(--Typography-fontSizeSmaller); }
+.u-fontSmall          { font-size: var(--Typography-fontSizeSmall); }
+.u-fontBase           { font-size: var(--Typography-fontSizeBase); }
+.u-fontLarge          { font-size: var(--Typography-fontSizelarge); }
+.u-fontLarger         { font-size: var(--Typography-fontSizelarger); }
+.u-fontLargest        { font-size: var(--Typography-fontSizelargest); }
+
+.u-textCenter         { text-align: center; }
+.u-textJustify        { text-align: justify; }
+.u-textLeft           { text-align: left; }
+.u-textRight          { text-align: right; }
+
+/* Medium breakpoint
+  =========================================================================== */
+
+@media (--md) {
+  .u-fontSmaller\@md  { font-size: var(--Typography-fontSizeSmaller); }
+  .u-fontSmall\@md    { font-size: var(--Typography-fontSizeSmall); }
+  .u-fontBase\@md     { font-size: var(--Typography-fontSizeBase); }
+  .u-fontLarge\@md    { font-size: var(--Typography-fontSizelarge); }
+  .u-fontLarger\@md   { font-size: var(--Typography-fontSizelarger); }
+  .u-fontLargest\@md  { font-size: var(--Typography-fontSizelargest); }
+
+  .u-textCenter\@md   { text-align: center; }
+  .u-textJustify\@md  { text-align: justify; }
+  .u-textLeft\@md     { text-align: left; }
+  .u-textRight\@md    { text-align: right; }
+}
+
+/* Large breakpoint
+  =========================================================================== */
+
+@media (--lg) {
+  .u-fontSmaller\@lg  { font-size: var(--Typography-fontSizeSmaller); }
+  .u-fontSmall\@lg    { font-size: var(--Typography-fontSizeSmall); }
+  .u-fontBase\@lg     { font-size: var(--Typography-fontSizeBase); }
+  .u-fontLarge\@lg    { font-size: var(--Typography-fontSizelarge); }
+  .u-fontLarger\@lg   { font-size: var(--Typography-fontSizelarger); }
+  .u-fontLargest\@lg  { font-size: var(--Typography-fontSizelargest); }
+
+  .u-textCenter\@lg   { text-align: center; }
+  .u-textJustify\@lg  { text-align: justify; }
+  .u-textLeft\@lg     { text-align: left; }
+  .u-textRight\@lg    { text-align: right; }
+}

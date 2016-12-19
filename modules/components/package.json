@@ -1,0 +1,20 @@
+{
+  "name": "usoniancss-components",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "",
+  "main": "index.css",
+  "keywords": [
+    "itcss",
+    "suitcss",
+    "usoniancss",
+    "postcss"
+  ],
+  "author": {
+    "name": "Black Pixel",
+    "url": "https://blackpixel.com"
+  },
+  "license": "MIT",
+  "bugs": "https://github.com/bpxl-labs/usoniancss/issues",
+  "homepage": "https://github.com/bpxl-labs/usoniancss"
+}

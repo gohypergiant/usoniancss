@@ -1,0 +1,63 @@
+/**
+ * Usoniancss > Elements > Form
+ */
+
+:root {
+  --Form-space: 1rem;
+  --Form-radius: 3px;
+  --Form-fontFamily: "Helvetica Neue", Helvetica, sans-serif;
+  --Form-fontColor: #333;
+  --Form-hightlight: #63e7ca;
+}
+
+input,
+select,
+textarea,
+fieldset {
+  border: none;
+  border-radius: var(--Form-radius);
+  box-sizing: border-box;
+  color: var(--Form-fontColor);
+  font-family: var(--Form-fontFamily);
+  font-size: 1rem;
+  outline: 0;
+  padding: calc(var(--Form-space) / 2);
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+fieldset:focus {
+  box-shadow: inset 0 0 0 1px var(--Form-hightlight);
+}
+
+input[type=text],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=time],
+input[type=url],
+input[type=week] {
+  -webkit-appearance: none;
+  vertical-align: middle;
+}
+
+select:not([multiple]) {
+  vertical-align: middle;
+}
+
+textarea {
+  padding: calc(var(--Form-space) / 2);
+}
+
+button {
+  border: none;
+  border-radius: var(--Form-radius);
+  outline: none;
+  padding: 0;
+}

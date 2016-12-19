@@ -1,0 +1,39 @@
+@import "usoniancss-mq";
+
+/**
+ * Usoniancss > Elements > Page
+ */
+
+:root {
+  --Page-background: #f5f5f5;
+  --Page-fontFamily: "Helvetica Neue", Helvetica, sans-serif;
+  --Page-fontColor: #333;
+  --Page-fontSize: 16px;
+  --Page-lineHeight: 1.5;
+}
+
+html {
+  background-color: var(--Page-background);
+  color: var(--Page-fontColor);
+  font-family: var(--Page-fontFamily);
+  font-size: var(--Page-fontSize);
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+  line-height: var(--Page-lineHeight);
+  min-height: 100%;
+  overflow-y: scroll;
+}
+
+body {
+  height: 100%;
+  position: relative;
+}
+
+@media (--lg) {
+
+  /* Increase base font-size at larger viewports */
+
+  html {
+    font-size: calc(var(--Page-fontSize) * 1.125);
+  }
+}
