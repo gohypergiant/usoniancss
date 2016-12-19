@@ -45,5 +45,13 @@
     "stylelint": "^5.2.1",
     "stylelint-config-usoniancss": "^1.0.0",
     "stylelint-selector-bem-pattern": "^0.2.1"
+  },
+  "dependencies": {
+    "usoniancss-components": "^1.0.0",
+    "usoniancss-elements": "^1.0.0",
+    "usoniancss-generic": "^1.0.0",
+    "usoniancss-mq": "^1.0.0",
+    "usoniancss-objects": "^1.0.0",
+    "usoniancss-utilities": "^1.0.0"
   }
 }

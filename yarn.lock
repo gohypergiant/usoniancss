@@ -2210,6 +2210,30 @@ uniqs@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/uniqs/-/uniqs-2.0.0.tgz#ffede4b36b25290696e6e165d4a59edb998e6b02"
 
+usoniancss-components@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/usoniancss-components/-/usoniancss-components-1.0.0.tgz#2cec49a96f0b8066ac506bcf587c5c552fe63a04"
+
+usoniancss-elements@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/usoniancss-elements/-/usoniancss-elements-1.0.0.tgz#a2417e6b128433e7943fa45ca65c40c63423d54a"
+
+usoniancss-generic@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/usoniancss-generic/-/usoniancss-generic-1.0.0.tgz#3dfeea74fd392f4e22ae5b0afab1152f407806e7"
+
+usoniancss-mq@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/usoniancss-mq/-/usoniancss-mq-1.0.0.tgz#5b5d89d1f7afe242644fb0fb01507b3bd6c15736"
+
+usoniancss-objects@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/usoniancss-objects/-/usoniancss-objects-1.0.0.tgz#da7d82ec8f3e55964c03ce81b3d486daf6a218d8"
+
+usoniancss-utilities@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/usoniancss-utilities/-/usoniancss-utilities-1.0.0.tgz#0c6c15778603ebfe0e1c8db2e8c98139a229391b"
+
 util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"

@@ -1,14 +1,8 @@
-/*@import "usoniancss-generic";
-@import "usoniancss-elements";
-@import "usoniancss-objects";
-@import "usoniancss-components";
-@import "usoniancss-utilities";*/
-
 @import "usoniancss-generic";
 @import "usoniancss-elements";
 @import "usoniancss-objects";
-@import "./modules/components";
-@import "./modules/utilities";
+@import "usoniancss-components";
+@import "usoniancss-utilities";
 
 :root {
   --baseFontFamily: "Helvetica Neue", Helvetica, sans-serif;
