@@ -2230,9 +2230,9 @@ usoniancss-objects@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/usoniancss-objects/-/usoniancss-objects-1.0.0.tgz#da7d82ec8f3e55964c03ce81b3d486daf6a218d8"
 
-usoniancss-utilities@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/usoniancss-utilities/-/usoniancss-utilities-1.1.0.tgz#77120ccbc496ee4d760ccd91fe1a6b3b2ad2f407"
+usoniancss-utilities@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/usoniancss-utilities/-/usoniancss-utilities-1.2.0.tgz#2c27cce809e5c1e15ba92186ee6d1248e1b95eca"
   dependencies:
     usoniancss-mq "^1.0.0"
 
