@@ -4,9 +4,9 @@
 @import "usoniancss-components";
 @import "usoniancss-utilities";*/
 
-@import "./modules/generic";
-@import "./modules/elements";
-@import "./modules/objects";
+@import "usoniancss-generic";
+@import "usoniancss-elements";
+@import "usoniancss-objects";
 @import "./modules/components";
 @import "./modules/utilities";
 
