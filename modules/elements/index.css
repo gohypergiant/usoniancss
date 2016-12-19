@@ -1,7 +1,8 @@
-@import './form';
-@import './heading';
-@import './image';
-@import './link';
-@import './list';
-@import './page';
-@import './typography';
+@import "usoniancss-mq";
+@import "./form";
+@import "./heading";
+@import "./image";
+@import "./link";
+@import "./list";
+@import "./page";
+@import "./typography";
