@@ -1,32 +1,6 @@
+@import "normalize.css";
 @import "usoniancss-generic";
 @import "usoniancss-elements";
 @import "usoniancss-objects";
 @import "usoniancss-components";
 @import "usoniancss-utilities";
-
-:root {
-  --baseFontFamily: "Helvetica Neue", Helvetica, sans-serif;
-  --baseFontSize: 16px;
-  --baseLineHeight: 1.5;
-  --baseSpace: 1rem;
-  --baseMaxWidth: 1280px;
-
-  --borderRadius: 6px;
-  --borderRadiusLarge: 12px;
-  --borderRadiusSmall: 3px;
-
-  --fontWeightLight: 200;
-  --fontWeightMedium: 400;
-  --fontWeightHeavy: 500;
-
-  --fontSizeBase: 1rem;
-  --fontSizeLarge: 1.25rem;
-  --fontSizeLarger: 1.563rem;
-  --fontSizeLargest: 3.815rem;
-  --fontSizeSmall: 0.8rem;
-  --fontSizeSmaller: 0.64rem;
-
-  --transitionSpeed: 300ms;
-  --transitionSpeedFast: 200ms;
-  --transitionSpeedSlow: 500ms;
-}

@@ -6,7 +6,6 @@ module.exports = {
     'postcss-custom-properties',
     'postcss-custom-media',
     'autoprefixer',
-    'css-mqpacker',
     'postcss-reporter'
   ],
   autoprefixer: {
