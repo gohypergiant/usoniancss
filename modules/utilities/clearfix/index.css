@@ -1,0 +1,10 @@
+/**
+ * Usoniancss > Utilities > Clearfix
+ * @define utilities
+ */
+
+.u-clearfix::after {
+  clear: both;
+  content: "";
+  display: table;
+}

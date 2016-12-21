@@ -1,0 +1,12 @@
+/**
+ * Usoniancss > Elements > Link
+ */
+
+:root {
+  --Link-color: #63e7ca;
+}
+
+a {
+  color: var(--Link-color);
+  text-decoration: none;
+}

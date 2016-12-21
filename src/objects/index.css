@@ -1,7 +1,0 @@
-/* Objects
-  - OOCSS and layout patterns; no cosmetics
-  =========================================================================== */
-
-@import "objects.intrinsic";
-@import "objects.layout";
-@import "objects.wrapper";

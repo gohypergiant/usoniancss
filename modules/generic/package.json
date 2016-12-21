@@ -1,0 +1,22 @@
+{
+  "name": "usoniancss-generic",
+  "version": "1.1.0",
+  "description": "Generic module for Usoniancss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bpxl-labs/usoniancss.git"
+  },
+  "author": {
+    "name": "Black Pixel",
+    "url": "https://blackpixel.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bpxl-labs/usoniancss/issues"
+  },
+  "homepage": "https://github.com/bpxl-labs/usoniancss",
+  "main": "index.css",
+  "dependencies": {
+    "normalize.css": "^5.0.0"
+  }
+}
