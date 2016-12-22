@@ -2,41 +2,32 @@
  * Usonian CSS > Elements > Heading
  */
 
-:root {
-  --Heading-h1: 3.815rem;
-  --Heading-h2: 1.563rem;
-  --Heading-h3: 1.25rem;
-  --Heading-h4: 1rem;
-  --Heading-h5: 0.8rem;
-  --Heading-h6: 0.64rem;
-}
-
 h1 {
-  font-size: var(--Heading-h1);
+  font-size: var(--fontSizeLargest);
   line-height: 1.2;
 }
 
 h2 {
-  font-size: var(--Heading-h2);
+  font-size: var(--fontSizeLarger);
   line-height: 1.2;
 }
 
 h3 {
-  font-size: var(--Heading-h3);
+  font-size: var(--fontSizeLarger);
   line-height: 1.2;
 }
 
 h4 {
-  font-size: var(--Heading-h4);
+  font-size: var(--fontSizeBase);
   line-height: 1.2;
 }
 
 h5 {
-  font-size: var(--Heading-h5);
+  font-size: var(--fontSizeSmall);
   line-height: 1.2;
 }
 
 h6 {
-  font-size: var(--Heading-h6);
+  font-size: var(--fontSizeSmall);
   line-height: 1.2;
 }

@@ -23,6 +23,7 @@
   --transitionSpeedSlow: 500ms;
 
   /* Base settings */
+
   --baseFontFamily: system, -apple-system, BlinkMacSystemFont, sans-serif;
   --baseFontSize: 16px;
   --baseLineHeight: 1.5;

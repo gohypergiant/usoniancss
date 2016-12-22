@@ -17,6 +17,6 @@
   "homepage": "https://github.com/bpxl-labs/usoniancss",
   "main": "index.css",
   "dependencies": {
-    "usoniancss-mq": "^1.0.0"
+    "usoniancss-settings": "^1.0.0"
   }
 }

@@ -2,11 +2,7 @@
  * Usonian CSS > Elements > Link
  */
 
-:root {
-  --Link-color: #63e7ca;
-}
-
 a {
-  color: var(--Link-color);
+  color: var(--baseColorAccent);
   text-decoration: none;
 }
