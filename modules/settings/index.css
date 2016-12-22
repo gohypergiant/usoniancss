@@ -1,2 +1,7 @@
+/* Settings
+  - Globally available settings:; colors, variables, etc.
+  =========================================================================== */
+
+/* Settings */
 @import "./color";
 @import "./global";

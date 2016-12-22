@@ -1,6 +1,8 @@
 /**
  * Usonian CSS > Utilities > Flex
+ *
  * @define utilities
+ *
  */
 
 .u-flexColumn           { flex-direction: column; }

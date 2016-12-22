@@ -1,6 +1,14 @@
-@import "usoniancss-mq";
+/* Utilities
+  - Composable, immutable classes: utilities, helpers, overrides, etc.
+  =========================================================================== */
+
+/* Settings */
+@import "usoniancss-settings";
+
+/* Utilities */
 @import "./accessibility";
 @import "./clearfix";
+@import "./color";
 @import "./display";
 @import "./flex";
 @import "./float";
