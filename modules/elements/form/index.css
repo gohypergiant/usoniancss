@@ -2,33 +2,25 @@
  * Usonian CSS > Elements > Form
  */
 
-:root {
-  --Form-space: 1rem;
-  --Form-radius: 3px;
-  --Form-fontFamily: "Helvetica Neue", Helvetica, sans-serif;
-  --Form-fontColor: #333;
-  --Form-hightlight: #63e7ca;
-}
-
 input,
 select,
 textarea,
 fieldset {
   border: none;
-  border-radius: var(--Form-radius);
+  border-radius: var(--borderRadius);
   box-sizing: border-box;
-  color: var(--Form-fontColor);
-  font-family: var(--Form-fontFamily);
+  color: var(--colorGray);
+  font-family: var(--baseFontFamily);
   font-size: 1rem;
   outline: 0;
-  padding: calc(var(--Form-space) / 2);
+  padding: calc(var(--baseSpace) / 2);
 }
 
 input:focus,
 select:focus,
 textarea:focus,
 fieldset:focus {
-  box-shadow: inset 0 0 0 1px var(--Form-hightlight);
+  box-shadow: inset 0 0 0 1px var(--baseColorAccent);
 }
 
 input[type=text],
@@ -52,12 +44,12 @@ select:not([multiple]) {
 }
 
 textarea {
-  padding: calc(var(--Form-space) / 2);
+  padding: calc(var(--baseSpace) / 2);
 }
 
 button {
   border: none;
-  border-radius: var(--Form-radius);
+  border-radius: var(--borderRadius);
   outline: none;
   padding: 0;
 }

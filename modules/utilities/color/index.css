@@ -1,0 +1,33 @@
+/**
+ * Utilities > Color
+ *
+ * @define utilities
+ *
+ */
+
+/* Base colors
+ =========================================================================== */
+
+.u-white          { color: var(--baseColorWhite); }
+.u-whiteBg        { background-color: var(--baseColorWhite); }
+
+.u-accent         { color: var(--baseColorAccent); }
+.u-accentBg       { background-color: var(--baseColorAccent); }
+
+/* Neutrals
+ =========================================================================== */
+
+.u-grayLightest   { color: var(--colorGrayLightest); }
+.u-grayLightestBg { background-color: var(--colorGrayLightest); }
+
+.u-grayLighter    { color: var(--colorGrayLighter); }
+.u-grayLighterBg  { background-color: var(--colorGrayLighter); }
+
+.u-grayLight      { color: var(--colorGrayLight); }
+.u-grayLightBg    { background-color: var(--colorGrayLight); }
+
+.u-gray           { color: var(--colorGray); }
+.u-grayBg         { background-color: var(--colorGray); }
+
+.u-grayDark       { color: var(--colorGrayDark); }
+.u-grayDarkBg     { background-color: var(--colorGrayDark); }

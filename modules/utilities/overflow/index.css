@@ -1,6 +1,8 @@
 /**
- * Usonian CSS > Utilities > Overflow
+ * Utilities > Overflow
+ *
  * @define utilities
+ *
  */
 
 .u-auto     { overflow: auto; }
