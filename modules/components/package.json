@@ -15,5 +15,8 @@
     "url": "https://github.com/bpxl-labs/usoniancss/issues"
   },
   "homepage": "https://github.com/bpxl-labs/usoniancss",
-  "main": "index.css"
+  "main": "index.css",
+  "dependencies": {
+    "usoniancss-settings": "^1.0.0"
+  }
 }

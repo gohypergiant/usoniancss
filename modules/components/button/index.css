@@ -1,19 +1,20 @@
 /**
  * Usonian CSS > Components > Button
+ *
  * @define Button
+ *
  */
 
 :root {
-  --Button-color: #63e7ca;
+  --Button-color: var(--baseColorAccent);
   --Button-paddingX: 0.5rem;
   --Button-paddingY: 2rem;
-  --Button-radius: 6px;
 }
 
 .Button {
   -webkit-appearance: none;
   background-color: var(--Button-color);
-  border-radius: var(--Button-radius);
+  border-radius: var(--borderRadius);
   color: white;
   cursor: pointer;
   display: inline-block;
