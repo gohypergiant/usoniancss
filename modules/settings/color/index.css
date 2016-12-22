@@ -1,0 +1,26 @@
+/**
+ * Usonian CSS > Settings > Color
+ */
+
+:root {
+  --Wrapper-maxWidth: 1000px;
+  --Wrapper-paddingX: 1rem;
+}
+
+:root {
+
+  /* Brand colors */
+  --colorBrandGreen: #63e7ca;
+
+  /* Neutrals */
+  --colorGrayDark: #1a1a1a;
+  --colorGray: #333;
+  --colorGrayLight: #666;
+  --colorGrayLighter: #999;
+  --colorGrayLightest: #e5e5e5;
+
+  /* Base colors */
+  --baseColorAccent: var(--colorBrandGreen);
+  --baseColorText: var(--colorGray);
+  --baseColorWhite: #f5f5f5;
+}
