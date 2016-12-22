@@ -1,7 +1,7 @@
 {
   "name": "usoniancss-mq",
   "version": "1.0.0",
-  "description": "Media query module for Usoniancss",
+  "description": "Media query module for Usonian CSS",
   "repository": {
     "type": "git",
     "url": "https://github.com/bpxl-labs/usoniancss.git"

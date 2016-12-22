@@ -1,7 +1,7 @@
 {
   "name": "usoniancss-objects",
   "version": "1.1.0",
-  "description": "Objects module for Usoniancss",
+  "description": "Objects module for Usonian CSS",
   "repository": {
     "type": "git",
     "url": "https://github.com/bpxl-labs/usoniancss.git"

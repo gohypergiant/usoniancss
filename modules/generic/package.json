@@ -1,7 +1,7 @@
 {
   "name": "usoniancss-generic",
   "version": "1.1.0",
-  "description": "Generic module for Usoniancss",
+  "description": "Generic module for Usonian CSS",
   "repository": {
     "type": "git",
     "url": "https://github.com/bpxl-labs/usoniancss.git"

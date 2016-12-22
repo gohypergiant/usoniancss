@@ -1,7 +1,7 @@
 {
   "name": "usoniancss-components",
   "version": "1.0.0",
-  "description": "Components module for Usoniancss",
+  "description": "Components module for Usonian CSS",
   "repository": {
     "type": "git",
     "url": "https://github.com/bpxl-labs/usoniancss.git"
