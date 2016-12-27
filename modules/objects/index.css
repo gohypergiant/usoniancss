@@ -2,10 +2,6 @@
   - OOCSS and layout patterns, no cosmetics
   =========================================================================== */
 
-/* Settings */
-@import "usoniancss-settings";
-
-/* Objects */
 @import "./intrinsic";
 @import "./layout";
 @import "./wrapper";

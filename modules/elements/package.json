@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/bpxl-labs/usoniancss",
   "main": "index.css",
-  "dependencies": {
+  "peerDependencies": {
     "usoniancss-settings": "^1.0.0"
   }
 }

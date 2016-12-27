@@ -2,10 +2,6 @@
   - Unclassed HTML elements, last layer to have type selectors
   =========================================================================== */
 
-/* Settings */
-@import "usoniancss-settings";
-
-/* Elements */
 @import "./form";
 @import "./heading";
 @import "./image";

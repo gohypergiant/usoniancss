@@ -2,8 +2,4 @@
   - Designed pieces of UI, explicitly named
   =========================================================================== */
 
-/* Settings */
-@import "usoniancss-settings";
-
-/* Components */
 @import "./button";

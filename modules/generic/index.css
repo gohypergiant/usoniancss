@@ -2,9 +2,6 @@
   - Ground zero styles: normalize, reset, etc.
   =========================================================================== */
 
-/* Settings */
-@import "usoniancss-settings";
-
 /* Vendor */
 @import "normalize.css";
 

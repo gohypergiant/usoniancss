@@ -17,7 +17,9 @@
   "homepage": "https://github.com/bpxl-labs/usoniancss",
   "main": "index.css",
   "dependencies": {
-    "normalize.css": "^5.0.0",
+    "normalize.css": "^5.0.0"
+  },
+  "peerDependencies": {
     "usoniancss-settings": "^1.0.0"
   }
 }
