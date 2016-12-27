@@ -49,10 +49,11 @@
     "stylelint-selector-bem-pattern": "^1.0.0"
   },
   "dependencies": {
-    "usoniancss-components": "^1.0.0",
-    "usoniancss-elements": "^1.1.0",
-    "usoniancss-generic": "^1.1.0",
-    "usoniancss-objects": "^1.1.0",
-    "usoniancss-utilities": "^1.2.0"
+    "usoniancss-components": "^1.2.0",
+    "usoniancss-elements": "^1.2.0",
+    "usoniancss-generic": "^1.2.0",
+    "usoniancss-objects": "^1.2.0",
+    "usoniancss-settings": "^1.2.0",
+    "usoniancss-utilities": "^1.3.0"
   }
 }
