@@ -16,6 +16,6 @@ A abstract button component that will normalize the appearance of multiple eleme
 
 ```
 .Button
-.Button--large
-.Button--outlined
+.Button--large # Larger button size
+.Button--outlined # Button with no background color
 ```
