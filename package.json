@@ -21,39 +21,23 @@
     "url": "https://github.com/bpxl-labs/usoniancss/issues"
   },
   "homepage": "https://github.com/bpxl-labs/usoniancss",
-  "files": [
-    "dist"
-  ],
   "scripts": {
-    "build": "rm -rf dist && postcss -c postcss.config.js",
-    "dev": "postcss -c postcss.config.js -w",
     "lint": "stylelint",
-    "size": "gzip-size dist/usonian.min.css | pretty-bytes",
-    "minify": "postcss -u cssnano css-mqpacker dist/usonian.css -o dist/usonian.min.css && npm run size",
-    "prepublish": "npm run build && npm run minify"
+    "test": "ava"
   },
   "devDependencies": {
-    "autoprefixer": "^6.5.4",
-    "css-mqpacker": "^5.0.1",
-    "cssnano": "^3.9.1",
-    "gzip-size-cli": "^1.0.0",
+    "ava": "^0.17.0",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0",
     "postcss": "^5.2.6",
-    "postcss-cli": "^2.5.1",
     "postcss-custom-media": "^5.0.1",
     "postcss-custom-properties": "^5.0.1",
     "postcss-import": "^9.0.0",
-    "postcss-reporter": "^3.0.0",
-    "pretty-bytes-cli": "^2.0.0",
     "stylelint": "^7.7.0",
     "stylelint-config-usoniancss": "^1.0.0",
     "stylelint-selector-bem-pattern": "^1.0.0"
-  },
-  "dependencies": {
-    "usoniancss-components": "^1.2.0",
-    "usoniancss-elements": "^1.2.0",
-    "usoniancss-generic": "^1.2.0",
-    "usoniancss-objects": "^1.2.0",
-    "usoniancss-settings": "^1.2.0",
-    "usoniancss-utilities": "^1.3.0"
   }
 }
